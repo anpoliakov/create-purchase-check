@@ -11,6 +11,8 @@
 .mtj.tmp/
 
 # Package Files #
+*.idea
+.clevertec-test.iml
 *.jar
 *.war
 *.nar
