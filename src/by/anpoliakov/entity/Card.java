@@ -1,7 +1,8 @@
 package by.anpoliakov.entity;
 
+import by.anpoliakov.constants.Constants;
+
 /* Представляет из себя скидочную карточку клиента */
-//TODO: поле с % скидки по данной карточке
 public class Card {
     private int id;
     private int discountSize;
@@ -9,16 +10,12 @@ public class Card {
 
     public Card(int id, int discountSize, User cardUser) {
         this.id = id;
-        this.discountSize = discountSize;
         this.cardUser = cardUser;
+        this.discountSize = discountSize;
     }
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public int getDiscountSize() {
