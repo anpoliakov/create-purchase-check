@@ -1,4 +1,4 @@
-# Create a purchase check
+# generate a purchase check
 Test-task from clevertec, implemented successfully!
 
 ![Task1](https://user-images.githubusercontent.com/54644652/227326319-d99d2e16-2bd1-4cd2-ba28-a543262c6295.png)
